@@ -23,7 +23,7 @@ const setUpAndStartServer = async () => {
     credentials: true,
   };
   // startCronJob("https://pretest-nvyk.onrender.com");
-  startCronJob("https://pretestt.onrender.com");
+  startCronJob("https://pretest-y921.onrender.com");
   app.use(cors());
   await connect_Database();
   app.use(morgan("dev"));
